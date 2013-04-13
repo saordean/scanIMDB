@@ -21,7 +21,7 @@
 		F2393DD71718E293006E20A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2393DD51718E293006E20A7 /* InfoPlist.strings */; };
 		F2393DD81718E51C006E20A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DD01718E239006E20A7 /* AppDelegate.m */; };
 		F2393DD91718E525006E20A7 /* movieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DD21718E26A006E20A7 /* movieCell.m */; };
-		F2393DEF1718F07A006E20A7 /* AFNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DCD1718E237006E20A7 /* AFNViewController.m */; };
+		F2393DEF1718F07A006E20A7 /* scanIMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DCD1718E237006E20A7 /* scanIMDBViewController.m */; };
 		F2393DF01718F172006E20A7 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DB21718DF56006E20A7 /* AFHTTPClient.m */; };
 		F2393DF11718F1C5006E20A7 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DB41718DF56006E20A7 /* AFHTTPRequestOperation.m */; };
 		F2393DF21718F218006E20A7 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DB61718DF56006E20A7 /* AFImageRequestOperation.m */; };
@@ -31,7 +31,7 @@
 		F2393DF61718F244006E20A7 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DBF1718DF56006E20A7 /* AFURLConnectionOperation.m */; };
 		F2393DF71718F255006E20A7 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DC11718DF56006E20A7 /* AFXMLRequestOperation.m */; };
 		F2393DF81718F261006E20A7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F2393DC31718DF56006E20A7 /* UIImageView+AFNetworking.m */; };
-		F2393DF91718F364006E20A7 /* AFNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2393DCE1718E237006E20A7 /* AFNViewController.xib */; };
+		F2393DF91718F364006E20A7 /* scanIMDBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2393DCE1718E237006E20A7 /* scanIMDBViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,9 +67,9 @@
 		F2393DC61718E18E006E20A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = scanIMDB/scanIMDB/Default.png; sourceTree = "<group>"; };
 		F2393DC81718E1A7006E20A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "scanIMDB/scanIMDB/Default@2x.png"; sourceTree = "<group>"; };
 		F2393DCA1718E1C2006E20A7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = scanIMDB/scanIMDB/main.m; sourceTree = "<group>"; };
-		F2393DCC1718E237006E20A7 /* AFNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNViewController.h; path = scanIMDB/scanIMDB/AFNViewController.h; sourceTree = "<group>"; };
-		F2393DCD1718E237006E20A7 /* AFNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AFNViewController.m; path = scanIMDB/scanIMDB/AFNViewController.m; sourceTree = "<group>"; };
-		F2393DCE1718E237006E20A7 /* AFNViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AFNViewController.xib; path = scanIMDB/scanIMDB/AFNViewController.xib; sourceTree = "<group>"; };
+		F2393DCC1718E237006E20A7 /* scanIMDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scanIMDBViewController.h; path = scanIMDB/scanIMDB/scanIMDBViewController.h; sourceTree = "<group>"; };
+		F2393DCD1718E237006E20A7 /* scanIMDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = scanIMDBViewController.m; path = scanIMDB/scanIMDB/scanIMDBViewController.m; sourceTree = "<group>"; };
+		F2393DCE1718E237006E20A7 /* scanIMDBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = scanIMDBViewController.xib; path = scanIMDB/scanIMDB/scanIMDBViewController.xib; sourceTree = "<group>"; };
 		F2393DCF1718E238006E20A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = scanIMDB/scanIMDB/AppDelegate.h; sourceTree = "<group>"; };
 		F2393DD01718E239006E20A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = scanIMDB/scanIMDB/AppDelegate.m; sourceTree = "<group>"; };
 		F2393DD11718E269006E20A7 /* movieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = movieCell.h; path = scanIMDB/scanIMDB/movieCell.h; sourceTree = "<group>"; };
@@ -130,9 +130,9 @@
 				F2393DD11718E269006E20A7 /* movieCell.h */,
 				F2393DD21718E26A006E20A7 /* movieCell.m */,
 				F2393DD31718E26A006E20A7 /* movieCell.xib */,
-				F2393DCC1718E237006E20A7 /* AFNViewController.h */,
-				F2393DCD1718E237006E20A7 /* AFNViewController.m */,
-				F2393DCE1718E237006E20A7 /* AFNViewController.xib */,
+				F2393DCC1718E237006E20A7 /* scanIMDBViewController.h */,
+				F2393DCD1718E237006E20A7 /* scanIMDBViewController.m */,
+				F2393DCE1718E237006E20A7 /* scanIMDBViewController.xib */,
 				F2393DCF1718E238006E20A7 /* AppDelegate.h */,
 				F2393DD01718E239006E20A7 /* AppDelegate.m */,
 				F2393DAB1718DBB4006E20A7 /* AFNetworking */,
@@ -248,7 +248,7 @@
 				F2393DC71718E18F006E20A7 /* Default.png in Resources */,
 				F2393DC91718E1A7006E20A7 /* Default@2x.png in Resources */,
 				F2393DD71718E293006E20A7 /* InfoPlist.strings in Resources */,
-				F2393DF91718F364006E20A7 /* AFNViewController.xib in Resources */,
+				F2393DF91718F364006E20A7 /* scanIMDBViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 				F2393DF21718F218006E20A7 /* AFImageRequestOperation.m in Sources */,
 				F2393DF11718F1C5006E20A7 /* AFHTTPRequestOperation.m in Sources */,
 				F2393DF01718F172006E20A7 /* AFHTTPClient.m in Sources */,
-				F2393DEF1718F07A006E20A7 /* AFNViewController.m in Sources */,
+				F2393DEF1718F07A006E20A7 /* scanIMDBViewController.m in Sources */,
 				F2393DD91718E525006E20A7 /* movieCell.m in Sources */,
 				F2393DD81718E51C006E20A7 /* AppDelegate.m in Sources */,
 				F2393DCB1718E1C2006E20A7 /* main.m in Sources */,

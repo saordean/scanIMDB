@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  AFNetworking
+//  scanIMDB
 //
 //  Created by JerryTaylorKendrick on 4/9/13.
 //  Copyright (c) 2013 Jerry Taylor Kendrick. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "AFNViewController.h"
+#import "scanIMDBViewController.h"
 
 @implementation AppDelegate
 
@@ -19,7 +19,7 @@
     [self.window makeKeyAndVisible];
     
     //GDTK
-    AFNViewController *viewController = [[AFNViewController alloc] initWithNibName:@"AFNViewController" bundle:[NSBundle mainBundle]];
+    scanIMDBViewController *viewController = [[scanIMDBViewController alloc] initWithNibName:@"scanIMDBViewController" bundle:[NSBundle mainBundle]];
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
                                          
@@ -27,7 +27,6 @@
                                          
     [self.window makeKeyAndVisible];
 
-    
     // End GDTK
     
     
